@@ -1,0 +1,58 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Fresh Tomatoes",
+            "price": 2.99,
+            "image": "images/tomatoes.jpg",
+            "category": "vegetables",
+            "description": "Fresh, ripe tomatoes perfect for salads and cooking",
+            "unit": "per kg"
+        },
+        {
+            "id": 2,
+            "name": "Organic Bananas",
+            "price": 3.99,
+            "image": "images/bananas.jpg",
+            "category": "fruits",
+            "description": "Sweet and nutritious organic bananas",
+            "unit": "per dozen"
+        },
+        {
+            "id": 3,
+            "name": "Whole Milk",
+            "price": 4.49,
+            "image": "images/milk.jpg",
+            "category": "dairy",
+            "description": "Fresh whole milk from local farms",
+            "unit": "1 gallon"
+        },
+        {
+            "id": 4,
+            "name": "Brown Eggs",
+            "price": 5.99,
+            "image": "images/eggs.jpg",
+            "category": "dairy",
+            "description": "Farm-fresh brown eggs",
+            "unit": "dozen"
+        },
+        {
+            "id": 5,
+            "name": "Fresh Bread",
+            "price": 2.49,
+            "image": "images/bread.jpg",
+            "category": "bakery",
+            "description": "Freshly baked artisan bread",
+            "unit": "loaf"
+        },
+        {
+            "id": 6,
+            "name": "Chicken Breast",
+            "price": 8.99,
+            "image": "images/chicken.jpg",
+            "category": "meat",
+            "description": "Premium quality chicken breast",
+            "unit": "per kg"
+        }
+    ]
+} 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Mart - Online Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Panda Mart</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About(under construction)</a></li>
+            <li><a href="#contact">Contact(under construction)</a></li>
+        </ul>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="images/banner1.jpg" alt="Fresh Vegetables">
+                <div class="slide-content">
+                    <h2>Fresh Vegetables Daily</h2>
+                    <p>Get farm-fresh vegetables delivered to your doorstep</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/banner2.jpg" alt="Organic Fruits">
+                <div class="slide-content">
+                    <h2>Organic Fruits</h2>
+                    <p>100% organic fruits for a healthy lifestyle</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/banner3.jpg" alt="Daily Essentials">
+                <div class="slide-content">
+                    <h2>Daily Essentials</h2>
+                    <p>All your daily needs in one place</p>
+                </div>
+            </div>
+            <button class="slider-btn prev">&lt;</button>
+            <button class="slider-btn next">&gt;</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+        <div class="products-grid" id="products-container">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <div class="cart-container" id="cart-container">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

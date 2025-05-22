@@ -329,3 +329,24 @@ body {
 .checkout-btn:hover {
     background: #27ae60;
 } 
+
+.cart-footer div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.cart-footer strong {
+    font-size: 1.1rem;
+}
+.cart-footer span {
+    font-size: 0.9rem;
+    color: #666;
+}
+.empty-cart-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: gray;
+}

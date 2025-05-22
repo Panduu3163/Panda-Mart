@@ -69,16 +69,31 @@
             <button class="close-cart">&times;</button>
         </div>
         <div class="cart-items">
+        
             <!-- Cart items will be dynamically added here -->
+             <div class="empty-cart-message">Your cart is empty.</div>
+
         </div>
         <div class="cart-footer">
-            <div class="cart-total">
-                <span>Total:</span>
-                <span id="cart-total-price">$0.00</span>
-            </div>
-            <button class="checkout-btn">Checkout</button>
-        </div>
+    <div class="cart-row">
+        <span>Subtotal:</span>
+        <span id="cart-subtotal-price">$0.00</span>
     </div>
+    <div class="cart-row">
+        <span>Delivery Fee:</span>
+        <span id="delivery-fee">$5.00</span>
+    </div>
+    <div class="cart-row">
+        <span>Discount:</span>
+        <span id="discount-amount">- $0.00</span>
+    </div>
+    <div class="cart-row total-row">
+        <strong>Total:</strong>
+        <strong id="cart-total-price">$0.00</strong>
+    </div>
+    <button class="checkout-btn">Checkout</button>
+</div>
+
 
     <script src="script.js"></script>
 </body>
